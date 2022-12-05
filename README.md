@@ -3,9 +3,9 @@
 ## Install and usage
 
 Use the version of django-snowflake that corresponds to your version of
-Django. For example, to get the latest compatible release for Django 3.2.x:
+Django. For example, to get the latest compatible release for Django 4.1.x:
 
-`pip install django-snowflake==3.2.*`
+`pip install django-snowflake==4.1.*`
 
 The minor release number of Django doesn't correspond to the minor release
 number of django-snowflake. Use the latest minor release of each.
@@ -80,7 +80,7 @@ if you encounter an issue worth documenting.
 * Snowflake only supports single layer transactions, but Django's `TestCase`
   requires that the database supports nested transactions. Therefore, Django's
   `TestCase` operates like `TransactionTestCase`, without the benefit of
-  transactions to speed it up. A future version of Django (4.1 at the earliest)
+  transactions to speed it up. A future version of Django
   may leverage Snowflake's single layer transactions to give some speed up.
 
 * Interval math where the interval is a column
