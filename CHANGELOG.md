@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.1 alpha 0 - 2022-12-05
+
+Initial release for Django 4.1.x.
+
+
 ## 3.2 alpha 2 - 2022-03-03
 
 - Backwards incompatible: database identifiers (table names, column names,
